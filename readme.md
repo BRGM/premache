@@ -18,3 +18,20 @@ A flowchart describing the code functioning is proposed in figure 6 in the main 
 Authors:
 Rosalie Vandromme and Thomas Grangeon
 r.vandromme@brgm.fr and t.grangeon@brgm.fr
+
+
+
+
+Intput files :  files.yml
+
+DirInputs: D:\Documents\....\
+DirOutputs : D:\Documents\.....\
+DataSpreadsheet : DDDD.xlsx
+FilePlots: AAAA.tif
+DataPlots: XXX.txt
+RasterNoDataValue : -99999
+DataRainfall: ZZZZ.xlsx
+DataRainfallEvent : TTTT.xlsx
+
+
+python -m EtatsDeSurface files.yml
