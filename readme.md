@@ -29,7 +29,7 @@ DirOutputs: D:\Documents\..... \
 DataSpreadsheet : Data&Values.xlsx \
 FilePlots: Plots.tif \
 DataPlots: LandUse_TimeSeries.txt \
-RasterNoDataValue : -99999 \
+Raster : DEM.tif (NoData : -99999) \
 DataRainfall: Rainfall_TimeSeries.xlsx \
 DataRainfallEvent : Rainfall_EventsCharacteristics.xlsx 
 
