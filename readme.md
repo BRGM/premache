@@ -26,12 +26,12 @@ Intput files :  files.yml
 
 DirInputs: D:\Documents\.... \
 DirOutputs: D:\Documents\..... \
-DataSpreadsheet : DDDD.xlsx \
-FilePlots: AAAA.tif \
-DataPlots: XXX.txt \
+DataSpreadsheet : Data&Values.xlsx \
+FilePlots: Plots.tif \
+DataPlots: LandUse_TimeSeries.txt \
 RasterNoDataValue : -99999 \
-DataRainfall: ZZZZ.xlsx \
-DataRainfallEvent : TTTT.xlsx 
+DataRainfall: Rainfall_TimeSeries.xlsx \
+DataRainfallEvent : Rainfall_EventsCharacteristics.xlsx 
 
 
 python -m EtatsDeSurface files.yml
