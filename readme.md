@@ -2,7 +2,6 @@
 
 Parameterization of Runoff and Erosion Models in Agricultural CatCHmEnts 
 
-Overview:
 This toolbox can be used to describe soil surface state (crop cover, soil crusting and roughness) evolution.
 Calculations are performed over multiple rainfall events and for all of the catchment plots.
 Data from litterature are then used to convert these modelled soil surface state into runoff and erosion model inputs.
