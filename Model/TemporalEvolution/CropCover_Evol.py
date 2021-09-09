@@ -35,7 +35,7 @@ def DefineTable_CropCoverEvolution(File,Sheetname,TableNumber,Columns):
     tmp=TableVeget.to_numpy()[:,1:]
     Val=np.ones((tmp.shape[0]+2,tmp.shape[1]+2))*99999
     Val[:-2,:-2]=tmp;Val=Val.astype(int)
-    Ind=TableVeget["code évolution végétation"].to_list()
+    Ind=TableVeget["Code crop cover evolution"].to_list()
     Col=list(TableVeget)[1:]
     Ind.extend(("-","nan"));Col.extend(("nan","-"))
     dfRule_pousse=pd.DataFrame(Val,index=Ind,columns=Col)
@@ -52,9 +52,9 @@ def DefineTable_ChemicalDestruction(File,Sheetname,TableNumber,Columns):
     '''
 
     TableChemDestr=ExtractTable(File,Sheetname,TableNumber,Columns)
-    IndChem=TableChemDestr["code évolution végétation"].to_list()
+    IndChem=TableChemDestr["Code crop cover evolution"].to_list()
     
-    TableChemDestr.drop(columns=["C3.5","code évolution végétation"],inplace=True)
+    TableChemDestr.drop(columns=["C3.5","Code crop cover evolution"],inplace=True)
     TableChemDestr=TableChemDestr[TableChemDestr.columns[::-1]]
     ValChem=np.ones((TableChemDestr.shape[0]+1,TableChemDestr.shape[1]+2))*99999
     ValChem[:-1,:-2]=TableChemDestr;ValChem=ValChem.astype(int)
