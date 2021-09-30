@@ -45,11 +45,8 @@ Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard 
 _Submitted to Environmental Modelling and Software_
 
 ### Authors
-PREMACHE writing:
-* Rosalie Vandromme and Thomas Grangeon  
-
-Assistance in code formatting and GitHub deposit: 
-* Farid Smai, Théophile Guillon
+* PREMACHE writing: Rosalie Vandromme and Thomas Grangeon
+* Assistance in code formatting and GitHub deposit: Farid Smai, Théophile Guillon
 
 ### Licence
 This toolbox is published under licence GNU GPL v3 - see [licence.md](licence.md) for more informations.
