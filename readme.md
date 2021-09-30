@@ -38,7 +38,7 @@ PREMACHE make use of the following Python packages:
 ## References
 
 ### Scientific manuscript
-The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (figure ``6`` of the manuscript).
+The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (``figure 6`` of the manuscript).
 The limitations associated with the toolbox are described in the ``section 2.4`` of the manuscript.
 
 Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. A toolbox for soil hydrodynamic property parameterization in agricultural catchments: implications for runoff and erosion modelling.
@@ -47,7 +47,8 @@ _Submitted to Environmental Modelling and Software_
 ### Authors
 PREMACHE writing:
 * Rosalie Vandromme: r.vandromme_.at._brgm.fr
-* Thomas Grangeon: t.grangeon_.at._brgm.fr
+* Thomas Grangeon: t.grangeon_.at._brgm.fr  
+
 Assistance in code formatting and GitHub deposit: 
 * Farid Smai, Théophile Guillon
 
