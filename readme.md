@@ -50,4 +50,4 @@ _Submitted to Environmental Modelling and Software_
 * Assistance in code formatting and GitHub deposit: Farid Smai, Théophile Guillon
 
 ### Licence
-This toolbox is published under licence GNU GPL v3 - see [licence.md](licence.md) for more informations.
+This toolbox is published under licence GNU GPL v3 - see the [licence file](licence.md) for more informations.
