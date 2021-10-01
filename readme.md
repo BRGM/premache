@@ -1,6 +1,7 @@
 # PREMACHE
 Parameterization of Runoff and Erosion Models in Agricultural CatCHmEnts ("Prémâcher" is a French word translating into _spoon-fed_, making work easier for future users).  
-The objective is to create runoff and erosion model inputs over multiple plots and rainfall events in agricultural catchments. To this end, time series of crop cover, roughness and crusting are modelled over the catchment plots. Then, based on the methodology proposed by [Cerdan et al. (2001)](https://www.sciencedirect.com/science/article/pii/S0341816201001667?via%3Dihub) and [Cerdan et al. (2002)](https://onlinelibrary.wiley.com/doi/10.1002/hyp.1098).
+The objective is to create runoff and erosion model inputs over multiple plots and rainfall events in agricultural catchments.  
+To this end, time series of crop cover, roughness and crusting are modelled over the catchment plots. Then, model inputs are created based on the methodology proposed by [Cerdan et al. (2001)](https://www.sciencedirect.com/science/article/pii/S0341816201001667?via%3Dihub) and [Cerdan et al. (2002)](https://onlinelibrary.wiley.com/doi/10.1002/hyp.1098).
 
 ## Overview
 
