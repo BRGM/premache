@@ -1,0 +1,8 @@
+DirInputs: D:\Documents\vandromme\BRGM\Bourville - General\Test_Premache\premache\InputsData\
+DirOutputs : D:\Documents\vandromme\BRGM\Bourville - General\Test_Premache\Outputs\
+DataSpreadsheet : Data&Values.xlsx
+FilePlots: Plots.tif
+DataPlots: LandUse_TimeSeries.txt
+RasterNoDataValue : -99999
+DataRainfall: Rainfall_TimeSeries.xlsx
+DataRainfallEvent : Rainfall_EventsCharacteristics.xlsx
