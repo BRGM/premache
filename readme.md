@@ -1,7 +1,7 @@
 # PREMACHE
 Parameterization of Runoff and Erosion Models in Agricultural CatCHmEnts ("Prémâcher" is a French word translating into _spoon-fed_, making work easier for future users).  
 The objective is to create runoff and erosion model inputs over multiple plots and rainfall events in agricultural catchments.  
-To this end, time series of crop cover, roughness and crusting are modelled over the catchment plots. Then, model inputs are created based on the methodology proposed by [Cerdan et al. (2001)](https://www.sciencedirect.com/science/article/pii/S0341816201001667?via%3Dihub) and [Cerdan et al. (2002)](https://onlinelibrary.wiley.com/doi/10.1002/hyp.1098).
+To this end, time series of crop cover, roughness and crusting are modelled over the catchment plots. Then, model inputs are created based on the methodology proposed by [Cerdan et al. (2002a)](https://www.sciencedirect.com/science/article/pii/S0341816201001667?via%3Dihub) and [Cerdan et al. (2002b)](https://onlinelibrary.wiley.com/doi/10.1002/hyp.1098).
 
 ## Overview
 
@@ -13,6 +13,7 @@ PREMACHE is divided into three modules:
 
 ### Execution
 First, please make sure that you are aware of the limitations associated with the proposed toolbox. Then, please check that input data are prepared accordingly to the procedure described in the manuscript (see ``References`` below).  
+Check the correspondance of the file names with the .yml file. Current date format is %d/%m/%Y.  
 In a Python prompt, move to the PREMACHE repository and write:
 ``python -m Premache files.yml``
 
@@ -31,19 +32,19 @@ Raster : DEM.tif (NoData : -99999) \
 DataRainfall: Rainfall_TimeSeries.xlsx \
 DataRainfallEvent : Rainfall_EventsCharacteristics.xlsx 
 
-### Python packages
-PREMACHE make use of the following Python packages:
+### Python
+PREMACHE was developped in Python 3.8.5 and make use of the following packages:
 ``panda``, ``numpy``, ``datetime``, ``time``, ``openpyxl``, ``csv``, ``itemtools``, ``os``, ``osgeo``
 
 
 ## References
 
 ### Scientific manuscript
+Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. A toolbox for soil hydrodynamic property parameterization in agricultural catchments: implications for runoff and erosion modelling.
+_Submitted to Environmental Modelling and Software_  
+
 The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (``figure 6`` of the manuscript).
 The limitations associated with the toolbox are described in the ``section 2.4`` of the manuscript.
-
-Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. A toolbox for soil hydrodynamic property parameterization in agricultural catchments: implications for runoff and erosion modelling.
-_Submitted to Environmental Modelling and Software_
 
 ### Authors
 * PREMACHE writing: Rosalie Vandromme and Thomas Grangeon
