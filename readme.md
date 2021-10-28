@@ -12,16 +12,16 @@ PREMACHE is divided into three modules:
 * ``Outputs``: conversion into runoff and erosion model inputs. Outputs are provided in raster format.
 
 ### Execution
-First, please make sure that you are aware of the limitations associated with the proposed toolbox. Then, please check that input data are prepared accordingly to the procedure described in the manuscript (see ``References`` below).  
-Check the correspondance of the file names with the .yml file. Current date format is %d/%m/%Y.  
+First, please make sure that you are aware of the limitations associated with the proposed toolbox and check that input data are prepared accordingly to the procedure described in the manuscript (see ``References`` below).  
+Check the the .yml file. Current date format is %d/%m/%Y.  
 In a Python prompt, move to the PREMACHE repository and write:
-``python -m Premache files.yml``
+``python -m PREMACHE param.yml``
 
 
 ## Inputs and dependencies
 
 ### Input files
-Intput files : files.yml
+Intput files : param.yml
 
 DirInputs: D:\Documents\.... \
 DirOutputs: D:\Documents\..... \
@@ -40,11 +40,10 @@ PREMACHE was developped in Python 3.8.5 and make use of the following packages:
 ## References
 
 ### Scientific manuscript
-Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. A toolbox for soil hydrodynamic property parameterization in agricultural catchments: implications for runoff and erosion modelling.
+Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. Dynamic parameterization of soil surface characteristics for hydrological models in agricultural catchments.
 _Submitted to Environmental Modelling and Software_  
 
 The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (``figure 6`` of the manuscript).
-The limitations associated with the toolbox are described in the ``section 2.4`` of the manuscript.
 
 ### Authors
 * PREMACHE writing: Rosalie Vandromme and Thomas Grangeon
