@@ -40,10 +40,10 @@ PREMACHE was developped in Python 3.8.5 and make use of the following packages:
 ## References
 
 ### Scientific manuscript
-Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. Dynamic parameterization of soil surface characteristics for hydrological models in agricultural catchments.
-_Submitted to Environmental Modelling and Software_  
+Grangeon T., Vandromme R., Pak L.T., Martin P., Cerdan, O., Richet J.B., Evrard O., Souchère V., Auzet A.V., Ludwig B., Ouvry J.F. (2022). Dynamic parameterization of soil surface characteristics for hydrological models in agricultural catchments. Catena, 214:106257.  
+[The manuscript is available online]((https://www.sciencedirect.com/science/article/pii/S0341816222002430?dgcid=author)).
 
-The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (``figure 6`` of the manuscript).
+The PREMACHE toolbox development, functioning, as well as the experimental data used to propose default values are detailed in a specific manuscript, including the toolbox flowchart (``figure 2`` of the manuscript).
 
 ### Authors
 * PREMACHE writing: Rosalie Vandromme and Thomas Grangeon
