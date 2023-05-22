@@ -1,7 +1,5 @@
 import pandas as pd
 
-#dir='C:\\Users\\grangeont\\Desktop\\FormationPython\\TP\\TravailTP\\data\\'
-#filename="dataV4.xlsx"
 
 def GroupCrops(File,Sheetname,Variable):
     "A dictionnary grouping crops having similar behavior"

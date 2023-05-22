@@ -14,8 +14,8 @@ PREMACHE is divided into three modules:
 ### Execution
 First, please make sure that you are aware of the limitations associated with the proposed toolbox and check that input data are prepared accordingly to the procedure described in the manuscript (see ``References`` below).  
 Check the the .yml file. Current date format is %d/%m/%Y.  
-In a Python prompt, move to the PREMACHE repository and write:
-``python -m PREMACHE param.yml``
+After created the outputs repository and complted th param.yml file, in a Python prompt, move to the Premache repository and write:
+``python -m Model param.yml``  
 
 
 ## Inputs and dependencies
@@ -34,7 +34,7 @@ DataRainfallEvent : Rainfall_EventsCharacteristics.xlsx
 
 ### Python
 PREMACHE was developped in Python 3.8.5 and make use of the following packages:
-``panda``, ``numpy``, ``datetime``, ``time``, ``openpyxl``, ``csv``, ``itemtools``, ``os``, ``osgeo``
+``pandas``, ``datetime``, ``openpyxl``, ``csv``, ``itertools``, ``os``, ``gdal``, ``pyyaml``
 
 
 ## References
