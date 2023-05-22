@@ -1,5 +1,5 @@
-DirInputs: D:\Documents\vandromme\BRGM\Bourville - General\Test_Premache\premache\InputsData\
-DirOutputs : D:\Documents\vandromme\BRGM\Bourville - General\Test_Premache\Outputs\
+DirInputs: .........../InputsData/
+DirOutputs : ....... /Outputs/
 DataSpreadsheet : Data&Values.xlsx
 FilePlots: Plots.tif
 DataPlots: LandUse_TimeSeries.txt

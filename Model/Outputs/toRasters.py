@@ -83,8 +83,8 @@ def ExportRaster(DirInputs,DirOutputs,FileRainfallEvents,PlotsShapefile,NoDataVa
         rain_depth_raster=ma.masked_where(srcArray==NoDataValue,rain_depth_raster)
         rain_depth_raster=np.ma.filled(rain_depth_raster,NoDataValue)
         
-        array2sdat(DirOutputs+'{}_{}\\RainfallDuration.sdat'.format(incr,Date),duration_raster,param_geo,NoDataValue)
-        array2sdat(DirOutputs+'{}_{}\\RainfallDepth.sdat'.format(incr,Date),rain_depth_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/RainfallDuration.sdat'.format(incr,Date),duration_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/RainfallDepth.sdat'.format(incr,Date),rain_depth_raster,param_geo,NoDataValue)
         
         for Plot in PlotsIDs : 
             rugo_ruis=dfR_run.loc[Plot,DateShort]
@@ -130,20 +130,20 @@ def ExportRaster(DirInputs,DirOutputs,FileRainfallEvents,PlotsShapefile,NoDataVa
     
         infilt_raster=ma.masked_where(srcArray==NoDataValue,infilt_raster)
         infilt_raster=np.ma.filled(infilt_raster,NoDataValue)
-        array2sdat(DirOutputs+'{}_{}\\InfiltrationCapacity.sdat'.format(incr,Date),infilt_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/InfiltrationCapacity.sdat'.format(incr,Date),infilt_raster,param_geo,NoDataValue)
     
         imbib_raster=ma.masked_where(srcArray==NoDataValue,imbib_raster)
         imbib_raster=np.ma.filled(imbib_raster,NoDataValue)
-        array2sdat(DirOutputs+'{}_{}\\Imbibition.sdat'.format(incr,Date),imbib_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/Imbibition.sdat'.format(incr,Date),imbib_raster,param_geo,NoDataValue)
     
         ps_raster=ma.masked_where(srcArray==NoDataValue,ps_raster)
         ps_raster=np.ma.filled(ps_raster,NoDataValue)
-        array2sdat(DirOutputs+'{}_{}\\SheetConcentration.sdat'.format(incr,Date),ps_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/SheetConcentration.sdat'.format(incr,Date),ps_raster,param_geo,NoDataValue)
     
         erod_raster=ma.masked_where(srcArray ==NoDataValue,erod_raster)
         erod_raster=np.ma.filled(erod_raster,NoDataValue)
-        array2sdat(DirOutputs+'{}_{}\\GullyErodibility.sdat'.format(incr,Date),erod_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/GullyErodibility.sdat'.format(incr,Date),erod_raster,param_geo,NoDataValue)
     
         manning_raster=ma.masked_where(srcArray==NoDataValue,manning_raster)
         manning_raster=np.ma.filled(manning_raster,NoDataValue)
-        array2sdat(DirOutputs+'\\{}_{}\\Manning.sdat'.format(incr,Date),manning_raster,param_geo,NoDataValue)
+        array2sdat(DirOutputs+'{}_{}/Manning.sdat'.format(incr,Date),manning_raster,param_geo,NoDataValue)
