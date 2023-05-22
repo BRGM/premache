@@ -14,7 +14,7 @@ PREMACHE is divided into three modules:
 ### Execution
 First, please make sure that you are aware of the limitations associated with the proposed toolbox and check that input data are prepared accordingly to the procedure described in the manuscript (see ``References`` below).  
 Check the the .yml file. Current date format is %d/%m/%Y.  
-After created the outputs repository and complted th param.yml file, in a Python prompt, move to the Premache repository and write:
+After created the outputs repository and completed the param.yml file, in a Python prompt, move to the Premache repository and write:
 ``python -m Model param.yml``  
 
 
